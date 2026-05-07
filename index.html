@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en" data-lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>MindForge — A System for Cognitive Growth, Personality Development & Lifelong Self-Transformation | 心智锻造</title>
+
+<!-- SEO · GEO -->
+<meta name="description" content="A structured system for cognitive growth, personality development, emotional regulation, decision-making, and lifelong self-transformation. Bilingual EN / 中文.">
+<meta name="keywords" content="cognitive development, personality, emotional regulation, decision making, metacognition, neuroscience, psychology, self-transformation, 心智, 认知, 自我发展">
+<meta name="author" content="Gewenbo">
+<link rel="canonical" href="https://mindforge.psyverse.fun/">
+<link rel="alternate" hreflang="en" href="https://mindforge.psyverse.fun/">
+<link rel="alternate" hreflang="zh-CN" href="https://mindforge.psyverse.fun/">
+<link rel="alternate" hreflang="x-default" href="https://mindforge.psyverse.fun/">
+<meta property="og:title" content="MindForge — A System for Cognitive Growth & Self-Transformation">
+<meta property="og:description" content="Cognitive architecture atlas, personality engine, emotional regulation system, decision lab, habit system, AI cognitive coach. Bilingual EN / 中文.">
+<meta property="og:url" content="https://mindforge.psyverse.fun/">
+<meta property="og:site_name" content="Psyverse">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MindForge">
+<meta name="twitter:description" content="A system for cognitive growth, personality development, and lifelong self-transformation.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0a0d1a">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MindForge",
+  "description": "A system for human cognitive growth, personality development, and lifelong self-transformation.",
+  "url": "https://mindforge.psyverse.fun/",
+  "inLanguage": ["en", "zh-CN"],
+  "author": { "@type": "Person", "name": "Gewenbo", "url": "https://psyverse.fun/" },
+  "publisher": { "@type": "Organization", "name": "Psyverse", "url": "https://psyverse.fun/" }
+}
+</script>
+<!-- /SEO · GEO -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230a0d1a'/><circle cx='16' cy='16' r='6' fill='none' stroke='%237d9bff' stroke-width='1.4'/><circle cx='16' cy='16' r='10' fill='none' stroke='%234ed8b8' stroke-width='1' opacity='.5'/><circle cx='16' cy='16' r='2' fill='%23f0a868'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://analytics-dashboard-two-blue.vercel.app/tracker.js" defer></script>
+</head>
+<body>
+
+<!-- ===== Topbar ===== -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 32 32" fill="none">
+          <circle cx="16" cy="16" r="6" stroke="#7d9bff" stroke-width="1.4"/>
+          <circle cx="16" cy="16" r="10" stroke="#4ed8b8" stroke-width="1" opacity=".5"/>
+          <circle cx="16" cy="16" r="2" fill="#f0a868"/>
+        </svg>
+      </span>
+      <span lang="en">MindForge</span>
+      <span lang="zh">心智锻造</span>
+    </a>
+    <nav class="nav">
+      <a href="#atlas">01·<span lang="en">Atlas</span><span lang="zh">认知图谱</span></a>
+      <a href="#personality">02·<span lang="en">Personality</span><span lang="zh">人格</span></a>
+      <a href="#emotion">03·<span lang="en">Emotion</span><span lang="zh">情绪</span></a>
+      <a href="#thinking">04·<span lang="en">Thinking</span><span lang="zh">思维</span></a>
+      <a href="#habit">05·<span lang="en">Habit</span><span lang="zh">习惯</span></a>
+      <a href="#learning">06·<span lang="en">Learning</span><span lang="zh">学习</span></a>
+      <a href="#social">07·<span lang="en">Social</span><span lang="zh">关系</span></a>
+      <a href="#coach">08·<span lang="en">Coach</span><span lang="zh">教练</span></a>
+      <a href="#timeline">09·<span lang="en">Growth</span><span lang="zh">成长</span></a>
+    </nav>
+    <div class="toolbar">
+      <div class="theme-toggle" role="group" aria-label="Theme">
+        <button data-theme-set="dark" class="active">◐</button>
+        <button data-theme-set="light">◑</button>
+      </div>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button data-lang-set="en" class="active">EN</button>
+        <button data-lang-set="zh">中文</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">
+        <span lang="en">Cognition · Personality · Self-Transformation</span>
+        <span lang="zh">认知 · 人格 · 自我转化</span>
+      </div>
+      <h1>
+        <span lang="en">Forge a mind that <em>understands</em> itself — and keeps <em>becoming</em>.</span>
+        <span lang="zh">锻造一个能<em>认识自己</em>，并不断<em>生成自己</em>的心智。</span>
+      </h1>
+      <p class="hero-lede">
+        <span lang="en">MindForge is a structured system, not a content feed. It maps the architecture of cognition, personality, and emotion — and gives you tools to develop them across a lifetime.</span>
+        <span lang="zh">MindForge 是一个结构化系统，而不是内容流。它绘制认知、人格与情绪的架构，并提供工具，让你在一生的尺度上去发展它们。</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#atlas" class="btn btn-primary">
+          <span lang="en">Open the Atlas →</span>
+          <span lang="zh">打开认知图谱 →</span>
+        </a>
+        <a href="#coach" class="btn btn-ghost">
+          <span lang="en">Talk to the Coach</span>
+          <span lang="zh">与教练对话</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-system">
+      <div class="label">
+        <span lang="en">System Model</span>
+        <span lang="zh">系统模型</span>
+      </div>
+      <div class="formula">
+        <b><span lang="en">Human Growth</span><span lang="zh">人之成长</span></b>
+        <span class="ops">=</span><br>
+        &nbsp;&nbsp;<em><span lang="en">Cognition</span><span lang="zh">认知</span></em>
+        <span class="ops">+</span> <em><span lang="en">Emotion</span><span lang="zh">情绪</span></em><br>
+        <span class="ops">+</span> <em><span lang="en">Environment</span><span lang="zh">环境</span></em>
+        <span class="ops">+</span> <em><span lang="en">Habits</span><span lang="zh">习惯</span></em><br>
+        <span class="ops">+</span> <em><span lang="en">Relationships</span><span lang="zh">关系</span></em><br>
+        <span class="ops">+</span> <em><span lang="en">Reflection</span><span lang="zh">反思</span></em>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 01 Cognitive Atlas ===== -->
+<section class="section" id="atlas">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">01 / ATLAS</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">The cognitive <em>architecture</em></span>
+          <span lang="zh">认知<em>架构</em></span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Seven systems form the working machinery of a mind. Hover any node to see its function, its bottleneck, and what damages or strengthens it.</span>
+          <span lang="zh">七个系统构成心智运作的核心。把光标移到任意节点，看见它的功能、它的瓶颈，以及什么会损伤或强化它。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="atlas-shell">
+      <svg class="atlas-svg" id="atlas-svg" viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#7d9bff" stop-opacity=".55"/>
+            <stop offset="100%" stop-color="#4ed8b8" stop-opacity=".25"/>
+          </linearGradient>
+        </defs>
+        <!-- edges -->
+        <g stroke="url(#edgeGrad)" stroke-width="1.2" fill="none">
+          <line x1="120" y1="100" x2="230" y2="210"/>
+          <line x1="340" y1="100" x2="230" y2="210"/>
+          <line x1="80"  y1="220" x2="230" y2="210"/>
+          <line x1="380" y1="220" x2="230" y2="210"/>
+          <line x1="120" y1="340" x2="230" y2="210"/>
+          <line x1="340" y1="340" x2="230" y2="210"/>
+          <line x1="230" y1="380" x2="230" y2="210"/>
+        </g>
+        <!-- nodes -->
+        <g class="atlas-node" data-key="attention" tabindex="0">
+          <circle cx="120" cy="100" r="32" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="120" y="98" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Attention</text>
+          <text x="120" y="113" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">注意</text>
+        </g>
+        <g class="atlas-node" data-key="memory" tabindex="0">
+          <circle cx="340" cy="100" r="32" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="340" y="98" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Memory</text>
+          <text x="340" y="113" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">记忆</text>
+        </g>
+        <g class="atlas-node" data-key="reasoning" tabindex="0">
+          <circle cx="80" cy="220" r="32" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="80" y="218" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Reason</text>
+          <text x="80" y="233" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">推理</text>
+        </g>
+        <g class="atlas-node" data-key="emotion" tabindex="0">
+          <circle cx="380" cy="220" r="32" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="380" y="218" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Emotion</text>
+          <text x="380" y="233" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">情绪</text>
+        </g>
+        <g class="atlas-node" data-key="motivation" tabindex="0">
+          <circle cx="120" cy="340" r="32" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="120" y="338" text-anchor="middle" font-family="Instrument Serif" font-size="13" fill="#eef0f8">Motivation</text>
+          <text x="120" y="353" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">动机</text>
+        </g>
+        <g class="atlas-node" data-key="habit" tabindex="0">
+          <circle cx="340" cy="340" r="32" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="340" y="338" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Habit</text>
+          <text x="340" y="353" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">习惯</text>
+        </g>
+        <g class="atlas-node" data-key="social" tabindex="0">
+          <circle cx="230" cy="380" r="30" fill="#161b32" stroke="#7d9bff" stroke-width="1.4"/>
+          <text x="230" y="378" text-anchor="middle" font-family="Instrument Serif" font-size="13" fill="#eef0f8">Social</text>
+          <text x="230" y="393" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">社会</text>
+        </g>
+        <!-- center: self -->
+        <g>
+          <circle cx="230" cy="210" r="44" fill="#7d9bff" opacity=".18"/>
+          <circle cx="230" cy="210" r="32" fill="#161b32" stroke="#f0a868" stroke-width="1.6"/>
+          <text x="230" y="206" text-anchor="middle" font-family="Instrument Serif" font-size="15" font-style="italic" fill="#eef0f8">Self</text>
+          <text x="230" y="222" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">自我</text>
+        </g>
+      </svg>
+
+      <div class="atlas-detail" id="atlas-detail"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 02 Personality ===== -->
+<section class="section alt" id="personality">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">02 / PERSONALITY</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">Personality is a <em>trajectory</em>, not a label</span>
+          <span lang="zh">人格是一条<em>轨迹</em>，不是一张标签</span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Big Five traits give a stable map. Maturity stages give a moving target. Together they describe who you are now and who you are becoming.</span>
+          <span lang="zh">大五人格给出稳定的坐标，成熟阶段给出移动的目标。两者结合，刻画你"现在的样子"与"正在成为的样子"。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="personality">
+      <div class="trait-list">
+        <div class="trait">
+          <div class="name">
+            <span lang="en">Openness</span>
+            <span lang="zh">开放性</span>
+          </div>
+          <div class="trait-bar mint" style="--w: 78%"></div>
+          <div class="pct">78</div>
+        </div>
+        <div class="trait">
+          <div class="name">
+            <span lang="en">Conscientious</span>
+            <span lang="zh">尽责性</span>
+          </div>
+          <div class="trait-bar" style="--w: 62%"></div>
+          <div class="pct">62</div>
+        </div>
+        <div class="trait">
+          <div class="name">
+            <span lang="en">Extraversion</span>
+            <span lang="zh">外向性</span>
+          </div>
+          <div class="trait-bar plum" style="--w: 45%"></div>
+          <div class="pct">45</div>
+        </div>
+        <div class="trait">
+          <div class="name">
+            <span lang="en">Agreeable</span>
+            <span lang="zh">宜人性</span>
+          </div>
+          <div class="trait-bar warm" style="--w: 71%"></div>
+          <div class="pct">71</div>
+        </div>
+        <div class="trait">
+          <div class="name">
+            <span lang="en">Neuroticism</span>
+            <span lang="zh">神经质</span>
+          </div>
+          <div class="trait-bar rose" style="--w: 54%"></div>
+          <div class="pct">54</div>
+        </div>
+      </div>
+
+      <div class="maturity">
+        <h3>
+          <span lang="en">Maturity stages</span>
+          <span lang="zh">成熟阶段</span>
+        </h3>
+        <div class="sub"><span lang="en">Loevinger / Kegan synthesis</span><span lang="zh">Loevinger / Kegan 合成</span></div>
+
+        <div class="stage-row">
+          <div class="label">01 · <span lang="en">Conformist</span><span lang="zh">遵从期</span></div>
+          <h4><span lang="en">Identity = group's identity</span><span lang="zh">身份等于群体的身份</span></h4>
+          <p>
+            <span lang="en">Self defined by belonging. Disagreement reads as betrayal. The work: discovering you can disagree and still belong.</span>
+            <span lang="zh">通过归属来定义自己。不同意会被读成背叛。功课：发现你可以不同意，并依然归属。</span>
+          </p>
+        </div>
+        <div class="stage-row active">
+          <div class="label">02 · <span lang="en">Self-Authoring</span><span lang="zh">自我书写</span></div>
+          <h4><span lang="en">You hold your values</span><span lang="zh">你"持有"自己的价值</span></h4>
+          <p>
+            <span lang="en">A coherent inner code emerges. You can disappoint others on purpose. The risk: rigidity — mistaking your code for the world.</span>
+            <span lang="zh">出现连贯的内在准则，可以有意识地让他人失望。风险：僵化 —— 把自己的准则误认成世界本身。</span>
+          </p>
+        </div>
+        <div class="stage-row">
+          <div class="label">03 · <span lang="en">Self-Transforming</span><span lang="zh">自我转化</span></div>
+          <h4><span lang="en">You hold many systems lightly</span><span lang="zh">能轻轻地"托举"多种系统</span></h4>
+          <p>
+            <span lang="en">You see your values as one possible system, not the only one. Contradiction becomes information, not threat.</span>
+            <span lang="zh">看见自己的价值是众多可能系统之一，而不是唯一。矛盾变成信息，而不是威胁。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 03 Emotion ===== -->
+<section class="section" id="emotion">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">03 / EMOTION</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">Emotion is <em>data</em>, not noise</span>
+          <span lang="zh">情绪是<em>数据</em>，不是噪音</span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Pick a feeling on the wheel. The system shows what it tends to mean and how to regulate without suppressing it. Suppression is a tax that compounds.</span>
+          <span lang="zh">在情绪轮上选一种感觉。系统会告诉你它通常意味着什么，以及如何在不压抑的前提下调节它 —— 压抑是一种会复利的税。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="emotion-layout">
+      <div class="emotion-wheel">
+        <svg class="wheel-svg" id="wheel-svg" viewBox="-180 -180 360 360" aria-hidden="true">
+          <!-- 8 sectors -->
+          <g id="wheel-sectors"></g>
+          <circle r="60" fill="var(--surface-2)" stroke="var(--hairline-strong)"/>
+          <text y="6" text-anchor="middle" font-family="Instrument Serif" font-size="22" font-style="italic" fill="var(--ink)" id="wheel-center">feel</text>
+        </svg>
+        <div class="emotion-label" id="emotion-label"></div>
+        <div class="emotion-cause" id="emotion-cause"></div>
+      </div>
+
+      <div class="regulation">
+        <h3 id="regulation-head">
+          <span lang="en">Regulation script</span>
+          <span lang="zh">调节脚本</span>
+        </h3>
+        <div class="sub" id="regulation-sub"></div>
+        <div id="regulation-body"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 04 Thinking ===== -->
+<section class="section alt" id="thinking">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">04 / THINKING</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">Thinking &amp; <em>decision</em> lab</span>
+          <span lang="zh">思维与<em>决策</em>实验室</span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">First understand the bugs the brain ships with. Then practice on a simulator that projects consequences across short, medium, and long horizons.</span>
+          <span lang="zh">先认识大脑出厂自带的 bug，再到模拟器里练习 —— 它会把决策的短期、中期、长期后果都展开。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="bias-grid">
+      <div class="bias-card">
+        <div class="glyph">B-001</div>
+        <h4><span lang="en">Confirmation bias</span><span lang="zh">确认偏误</span></h4>
+        <p>
+          <span lang="en">You search for, weigh, and remember information that fits what you already believe. The cure isn't being "open-minded" — it's actively listing the strongest counter-evidence before you decide.</span>
+          <span lang="zh">你倾向于搜索、采纳、记住"已经相信"的信息。解药不是"开放心态"，而是在做决定前主动列出最强的反证。</span>
+        </p>
+      </div>
+      <div class="bias-card">
+        <div class="glyph">B-002</div>
+        <h4><span lang="en">Availability heuristic</span><span lang="zh">易得性启发</span></h4>
+        <p>
+          <span lang="en">If you can recall something easily, you assume it's common. Recent news and vivid stories distort base rates. Always ask: 'How often does this actually happen?'</span>
+          <span lang="zh">能轻易想起的事，你会以为它很常见。近期新闻与生动故事会扭曲实际概率。先问："这件事真实发生的频率是多少？"</span>
+        </p>
+      </div>
+      <div class="bias-card">
+        <div class="glyph">B-003</div>
+        <h4><span lang="en">Sunk cost fallacy</span><span lang="zh">沉没成本</span></h4>
+        <p>
+          <span lang="en">Past investment pulls you to keep going on a path that's failing. Decide based on the future, not the receipts of the past.</span>
+          <span lang="zh">过去的投入会拽着你继续走在已经失败的路上。基于未来决定，而不是基于过去的收据。</span>
+        </p>
+      </div>
+      <div class="bias-card">
+        <div class="glyph">B-004</div>
+        <h4><span lang="en">Status quo bias</span><span lang="zh">现状偏好</span></h4>
+        <p>
+          <span lang="en">"How things are" feels safer than "how they could be" — even when the status quo is actively bad. Inversion test: if you weren't in this situation, would you choose into it today?</span>
+          <span lang="zh">"现状"感觉比"另一种可能"更安全，即使现状正在伤害你。倒置测验：如果你不在这个状态里，今天会主动进入吗？</span>
+        </p>
+      </div>
+      <div class="bias-card">
+        <div class="glyph">B-005</div>
+        <h4><span lang="en">Hyperbolic discounting</span><span lang="zh">即时偏好</span></h4>
+        <p>
+          <span lang="en">A small reward now feels bigger than a much larger reward later. The brain is doing arithmetic with bad weights. Pre-commit when sober.</span>
+          <span lang="zh">"现在的小奖励"在感受上大于"未来更大的奖励"。大脑在用错误的权重算术。冷静时先承诺。</span>
+        </p>
+      </div>
+      <div class="bias-card">
+        <div class="glyph">B-006</div>
+        <h4><span lang="en">Fundamental attribution error</span><span lang="zh">基本归因错误</span></h4>
+        <p>
+          <span lang="en">Others' bad behavior → 'they are like that.' Your bad behavior → 'circumstances forced me.' Symmetry costs almost nothing and changes everything.</span>
+          <span lang="zh">别人做坏事 → "他就是那样的人"；你做坏事 → "情境逼我那么做"。对称几乎不费力，却改变一切。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="decision-sim">
+      <h3>
+        <span lang="en">Decision simulator</span>
+        <span lang="zh">决策模拟器</span>
+      </h3>
+      <div class="prompt">
+        <span lang="en">You're offered a job that pays 40% more, but moves you off the work that gives you meaning. Three responses, three trajectories.</span>
+        <span lang="zh">有人给你一份多 40% 薪水的工作，但会把你带离真正有意义感的工作。三种回应，三条轨迹。</span>
+      </div>
+
+      <div class="choice-list" id="choice-list">
+        <button class="choice active" data-choice="take">
+          <div class="label"><span lang="en">Optimize money</span><span lang="zh">优化金钱</span></div>
+          <div class="head"><span lang="en">Take it</span><span lang="zh">接受</span></div>
+          <div class="desc"><span lang="en">Higher pay; trust you'll find meaning later.</span><span lang="zh">薪水更高，相信"以后会有意义"。</span></div>
+        </button>
+        <button class="choice" data-choice="reject">
+          <div class="label"><span lang="en">Optimize meaning</span><span lang="zh">优化意义</span></div>
+          <div class="head"><span lang="en">Reject it</span><span lang="zh">拒绝</span></div>
+          <div class="desc"><span lang="en">Stay with what matters; protect identity.</span><span lang="zh">留在重要的工作上，保护身份认同。</span></div>
+        </button>
+        <button class="choice" data-choice="negotiate">
+          <div class="label"><span lang="en">Optimize design</span><span lang="zh">优化设计</span></div>
+          <div class="head"><span lang="en">Negotiate the role</span><span lang="zh">改造它</span></div>
+          <div class="desc"><span lang="en">Reshape scope so money + meaning both rise.</span><span lang="zh">重塑岗位，让金钱与意义同时上升。</span></div>
+        </button>
+      </div>
+
+      <div class="outcome" id="decision-outcome"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 05 Habit ===== -->
+<section class="section" id="habit">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">05 / HABIT</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">The <em>loop</em> beneath behavior</span>
+          <span lang="zh">行为之下的<em>回路</em></span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Habits are loops your brain runs to save energy. Once you can see the loop, you can change it. Once you understand dopamine, you stop fighting it.</span>
+          <span lang="zh">习惯是大脑为节省能量而运行的回路。看见回路，才能改变它；理解多巴胺，才不再与它对抗。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="habit-layout">
+      <div class="habit-loop">
+        <h3><span lang="en">The four-part loop</span><span lang="zh">四段回路</span></h3>
+        <div class="sub"><span lang="en">cue → craving → response → reward</span><span lang="zh">线索 → 渴望 → 行为 → 奖励</span></div>
+        <svg class="habit-svg" viewBox="0 0 460 320" aria-hidden="true">
+          <defs>
+            <marker id="arr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+              <path d="M0,0 L10,5 L0,10 z" fill="#7d9bff"/>
+            </marker>
+          </defs>
+          <!-- ring -->
+          <circle cx="230" cy="160" r="120" fill="none" stroke="#7d9bff33" stroke-dasharray="4 5"/>
+          <!-- nodes -->
+          <g>
+            <circle cx="230" cy="40"  r="36" fill="#161b32" stroke="#7d9bff"/>
+            <text x="230" y="38" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Cue</text>
+            <text x="230" y="53" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">线索</text>
+          </g>
+          <g>
+            <circle cx="350" cy="160" r="36" fill="#161b32" stroke="#4ed8b8"/>
+            <text x="350" y="158" text-anchor="middle" font-family="Instrument Serif" font-size="13" fill="#eef0f8">Craving</text>
+            <text x="350" y="173" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">渴望</text>
+          </g>
+          <g>
+            <circle cx="230" cy="280" r="36" fill="#161b32" stroke="#f0a868"/>
+            <text x="230" y="278" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Response</text>
+            <text x="230" y="293" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">行为</text>
+          </g>
+          <g>
+            <circle cx="110" cy="160" r="36" fill="#161b32" stroke="#b88ad9"/>
+            <text x="110" y="158" text-anchor="middle" font-family="Instrument Serif" font-size="14" fill="#eef0f8">Reward</text>
+            <text x="110" y="173" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">奖励</text>
+          </g>
+          <!-- arrows -->
+          <path d="M 262 55 A 120 120 0 0 1 332 132" stroke="#7d9bff" fill="none" stroke-width="1.4" marker-end="url(#arr)"/>
+          <path d="M 332 192 A 120 120 0 0 1 262 268" stroke="#7d9bff" fill="none" stroke-width="1.4" marker-end="url(#arr)"/>
+          <path d="M 198 268 A 120 120 0 0 1 128 192" stroke="#7d9bff" fill="none" stroke-width="1.4" marker-end="url(#arr)"/>
+          <path d="M 128 132 A 120 120 0 0 1 198 55"  stroke="#7d9bff" fill="none" stroke-width="1.4" marker-end="url(#arr)"/>
+          <!-- label -->
+          <text x="230" y="155" text-anchor="middle" font-family="Geist Mono" font-size="10" fill="#a5acc4" letter-spacing="2">LOOP</text>
+          <text x="230" y="172" text-anchor="middle" font-family="Instrument Serif" font-style="italic" font-size="20" fill="#eef0f8">automated</text>
+        </svg>
+      </div>
+
+      <div class="dopamine">
+        <h3><span lang="en">Dopamine surface</span><span lang="zh">多巴胺曲面</span></h3>
+        <div class="sub"><span lang="en">your daily reward sources, ranked by spike</span><span lang="zh">你日常的奖励来源，按峰值排序</span></div>
+
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">Short-form</span><span lang="zh">短视频</span></div>
+          <div class="dopa-track"><div class="dopa-fill high" style="width: 92%"></div></div>
+          <div class="value">0.92</div>
+        </div>
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">Notifications</span><span lang="zh">通知</span></div>
+          <div class="dopa-track"><div class="dopa-fill high" style="width: 81%"></div></div>
+          <div class="value">0.81</div>
+        </div>
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">News scroll</span><span lang="zh">资讯流</span></div>
+          <div class="dopa-track"><div class="dopa-fill high" style="width: 76%"></div></div>
+          <div class="value">0.76</div>
+        </div>
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">Snacking</span><span lang="zh">零食</span></div>
+          <div class="dopa-track"><div class="dopa-fill" style="width: 64%"></div></div>
+          <div class="value">0.64</div>
+        </div>
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">Deep reading</span><span lang="zh">深度阅读</span></div>
+          <div class="dopa-track"><div class="dopa-fill" style="width: 38%"></div></div>
+          <div class="value">0.38</div>
+        </div>
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">Walks</span><span lang="zh">散步</span></div>
+          <div class="dopa-track"><div class="dopa-fill" style="width: 32%"></div></div>
+          <div class="value">0.32</div>
+        </div>
+        <div class="dopa-bar">
+          <div class="name"><span lang="en">Real conversation</span><span lang="zh">深度对话</span></div>
+          <div class="dopa-track"><div class="dopa-fill" style="width: 41%"></div></div>
+          <div class="value">0.41</div>
+        </div>
+
+        <p style="margin-top: 24px; font-size: 13.5px; color: var(--ink-soft); line-height: 1.6;">
+          <span lang="en">High-spike sources train the brain to expect intensity. The repair isn't elimination — it's <strong style="color: var(--accent)">spike compression</strong>: reduce the very-high band so deep reading and conversation regain salience.</span>
+          <span lang="zh">高峰值来源会训练大脑期待强烈刺激。解决方式不是消除，而是<strong style="color: var(--accent)">压低峰值</strong>：缩小最高一档的强度，让深度阅读和对话重新变得显眼。</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 06 Learning ===== -->
+<section class="section alt" id="learning">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">06 / LEARNING</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">From <em>information</em> to intelligence</span>
+          <span lang="zh">从<em>信息</em>到智识</span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Five levels stack from raw input to a mind that watches itself learn. Below the top level, you don't really know what you know.</span>
+          <span lang="zh">从原始输入到能够审视自己学习的心智，五层叠加。在顶层之前，你其实不知道自己知道什么。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="learning-pyramid">
+      <svg class="pyramid-svg" viewBox="0 0 400 460" aria-hidden="true">
+        <g font-family="Instrument Serif" font-size="14" fill="#eef0f8">
+          <polygon points="20,440 380,440 350,360 50,360" fill="#161b32" stroke="#7d9bff" stroke-width="1.2"/>
+          <text x="200" y="408" text-anchor="middle" font-style="italic">Information</text>
+          <text x="200" y="424" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">L1 · INPUT</text>
+
+          <polygon points="50,360 350,360 320,280 80,280" fill="#161b32" stroke="#4ed8b8" stroke-width="1.2"/>
+          <text x="200" y="328" text-anchor="middle" font-style="italic">Knowledge</text>
+          <text x="200" y="344" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">L2 · ENCODED</text>
+
+          <polygon points="80,280 320,280 290,200 110,200" fill="#161b32" stroke="#f0a868" stroke-width="1.2"/>
+          <text x="200" y="248" text-anchor="middle" font-style="italic">Understanding</text>
+          <text x="200" y="264" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">L3 · CONNECTED</text>
+
+          <polygon points="110,200 290,200 260,120 140,120" fill="#161b32" stroke="#b88ad9" stroke-width="1.2"/>
+          <text x="200" y="168" text-anchor="middle" font-style="italic">Skill</text>
+          <text x="200" y="184" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">L4 · APPLIED</text>
+
+          <polygon points="140,120 260,120 230,40 170,40" fill="#161b32" stroke="#e98aa6" stroke-width="1.2"/>
+          <text x="200" y="88" text-anchor="middle" font-style="italic">Metacognition</text>
+          <text x="200" y="104" text-anchor="middle" font-family="Geist Mono" font-size="9" fill="#a5acc4">L5 · OBSERVE</text>
+        </g>
+      </svg>
+
+      <div class="metacog-list">
+        <div class="metacog-item">
+          <div class="level">L1 · <span lang="en">Information</span><span lang="zh">信息</span></div>
+          <h4><span lang="en">Raw input</span><span lang="zh">原始输入</span></h4>
+          <p>
+            <span lang="en">Words, numbers, headlines. Easy to acquire, easy to lose. Most "I read about that" lives here.</span>
+            <span lang="zh">词语、数字、标题。容易获取，也容易遗忘。多数"我看过那个"都停留在这里。</span>
+          </p>
+        </div>
+        <div class="metacog-item">
+          <div class="level">L2 · <span lang="en">Knowledge</span><span lang="zh">知识</span></div>
+          <h4><span lang="en">Encoded into memory</span><span lang="zh">编码进记忆</span></h4>
+          <p>
+            <span lang="en">You can retrieve it days later. Mostly comes from active recall, not from highlighting or re-reading.</span>
+            <span lang="zh">几天后还能取回。主要来自主动回忆，而不是划线或重读。</span>
+          </p>
+        </div>
+        <div class="metacog-item">
+          <div class="level">L3 · <span lang="en">Understanding</span><span lang="zh">理解</span></div>
+          <h4><span lang="en">Connected to other knowledge</span><span lang="zh">与已有知识连接</span></h4>
+          <p>
+            <span lang="en">You can explain it to a stranger, predict what would happen if a variable changed, and notice when something doesn't fit.</span>
+            <span lang="zh">能讲给陌生人听，能预测变量改变会怎样，能察觉到不一致。</span>
+          </p>
+        </div>
+        <div class="metacog-item">
+          <div class="level">L4 · <span lang="en">Skill</span><span lang="zh">技能</span></div>
+          <h4><span lang="en">Applied under load</span><span lang="zh">在压力下能用</span></h4>
+          <p>
+            <span lang="en">It works when you're tired, stressed, or facing a novel case. Skill is knowledge that survives reality.</span>
+            <span lang="zh">在你疲惫、紧张、遇到新情境时仍能起作用。技能是经得起现实考验的知识。</span>
+          </p>
+        </div>
+        <div class="metacog-item">
+          <div class="level">L5 · <span lang="en">Metacognition</span><span lang="zh">元认知</span></div>
+          <h4><span lang="en">Watching yourself learn</span><span lang="zh">看着自己在学</span></h4>
+          <p>
+            <span lang="en">You notice when you don't understand. You can choose your strategy and switch when it isn't working. This is where leverage compounds.</span>
+            <span lang="zh">你能察觉自己什么时候并没有真正理解。可以选择学习策略，并在它不起作用时切换。这是杠杆开始复利的地方。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 07 Social ===== -->
+<section class="section" id="social">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">07 / SOCIAL</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">Attachment is the <em>operating system</em> of relationships</span>
+          <span lang="zh">依恋是关系的<em>操作系统</em></span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Patterns shaped early decide how you read closeness, distance, and conflict. They're not destiny — but they run by default until named.</span>
+          <span lang="zh">早期形成的模式决定你如何解读亲近、距离与冲突。它不是宿命 —— 但在被命名之前，它默认在运行。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="social-grid">
+      <div class="social-card">
+        <div class="badge">A1 · <span lang="en">Secure</span><span lang="zh">安全型</span></div>
+        <h4><span lang="en">Safe to come close, safe to go away</span><span lang="zh">靠近安全，离开也安全</span></h4>
+        <p>
+          <span lang="en">You assume good intent until shown otherwise. Conflict is uncomfortable, not catastrophic. You can ask for what you need without negotiating with a hostage in your head.</span>
+          <span lang="zh">在被证明相反之前，你倾向于假设善意。冲突让人不舒服，但不是灾难。你能直接说出需要，而不必先和脑里的"人质"谈判。</span>
+        </p>
+        <div class="attach-meter">
+          <span class="attach-pip"><span lang="en">trust</span><span lang="zh">信任</span></span>
+          <span class="attach-pip"><span lang="en">repair</span><span lang="zh">修复</span></span>
+          <span class="attach-pip"><span lang="en">presence</span><span lang="zh">在场</span></span>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="badge">A2 · <span lang="en">Anxious</span><span lang="zh">焦虑型</span></div>
+        <h4><span lang="en">Closeness feels uncertain</span><span lang="zh">亲近不可靠</span></h4>
+        <p>
+          <span lang="en">Small distance reads as imminent loss. You scan for cues, ask the same question in different ways. The work: tolerating the gap between signal and meaning.</span>
+          <span lang="zh">很小的距离也会被读成即将失去。你扫描信号、用不同方式问同一个问题。功课：容忍信号与意义之间的间隙。</span>
+        </p>
+        <div class="attach-meter">
+          <span class="attach-pip"><span lang="en">scanning</span><span lang="zh">扫描</span></span>
+          <span class="attach-pip"><span lang="en">protest</span><span lang="zh">抗议</span></span>
+          <span class="attach-pip"><span lang="en">reassurance</span><span lang="zh">寻求确认</span></span>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="badge">A3 · <span lang="en">Avoidant</span><span lang="zh">回避型</span></div>
+        <h4><span lang="en">Closeness feels expensive</span><span lang="zh">亲近代价高</span></h4>
+        <p>
+          <span lang="en">Independence as a survival strategy. Asking for help feels like exposure. The work: noticing the body's "shut down" before story arrives, and staying just a little longer.</span>
+          <span lang="zh">把独立当作生存策略。请求帮助像在暴露自己。功课：在故事到达之前先察觉身体的"关闭"反应，并多停留一会儿。</span>
+        </p>
+        <div class="attach-meter">
+          <span class="attach-pip"><span lang="en">withdrawal</span><span lang="zh">退缩</span></span>
+          <span class="attach-pip"><span lang="en">self-reliance</span><span lang="zh">自给自足</span></span>
+          <span class="attach-pip"><span lang="en">numbing</span><span lang="zh">麻木</span></span>
+        </div>
+      </div>
+
+      <div class="social-card">
+        <div class="badge">A4 · <span lang="en">Disorganized</span><span lang="zh">混乱型</span></div>
+        <h4><span lang="en">The system pulls in two directions</span><span lang="zh">系统同时拉向两边</span></h4>
+        <p>
+          <span lang="en">"Come close" and "stay away" fire at the same time. Often shaped by chaotic or frightening early environments. Healing is slow, real, and almost always relational.</span>
+          <span lang="zh">"靠近我"和"离开我"同时被触发。常源于混乱或令人恐惧的早期环境。修复是慢的、真实的，几乎总是发生在关系中。</span>
+        </p>
+        <div class="attach-meter">
+          <span class="attach-pip"><span lang="en">push-pull</span><span lang="zh">推拉</span></span>
+          <span class="attach-pip"><span lang="en">freeze</span><span lang="zh">冻结</span></span>
+          <span class="attach-pip"><span lang="en">repair-in-relation</span><span lang="zh">关系中修复</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 08 Coach ===== -->
+<section class="section" id="coach">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">08 / COACH</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">A <em>cognitive</em> coach &amp; reflective mirror</span>
+          <span lang="zh"><em>认知</em>教练与反射之镜</span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Not a motivator. A clear mind that explains why you think and feel a certain way, finds the blind spot, and proposes a path. Pick a question or write your own.</span>
+          <span lang="zh">不是打鸡血的人。一个清醒的对话伙伴：解释你为什么这样想、这样感受，找到盲区，给出路径。挑一个问题，或写你自己的。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="coach">
+      <aside class="coach-side">
+        <h4><span lang="en">Try a question</span><span lang="zh">试试这些问题</span></h4>
+        <button class="coach-pill" data-q="overthinking"><span lang="en">I can't stop overthinking everything</span><span lang="zh">我无法停止过度思考</span></button>
+        <button class="coach-pill" data-q="motivation"><span lang="en">I lost motivation for things I love</span><span lang="zh">对喜欢的事失去动力了</span></button>
+        <button class="coach-pill" data-q="comparison"><span lang="en">I always compare myself to others</span><span lang="zh">总是和别人比较</span></button>
+        <button class="coach-pill" data-q="people-pleasing"><span lang="en">I can't say no</span><span lang="zh">我说不出"不"</span></button>
+        <button class="coach-pill" data-q="numb"><span lang="en">I feel emotionally numb</span><span lang="zh">情感上麻木</span></button>
+      </aside>
+
+      <div class="coach-main">
+        <div class="coach-stream" id="coach-stream">
+          <div class="msg">
+            <div class="role"><span lang="en">Coach</span><span lang="zh">教练</span></div>
+            <div class="bubble">
+              <p>
+                <span lang="en">Hello. I work like a clear mirror more than a cheerleader. Tell me what's been moving in your inner world lately — or pick one of the prompts.</span>
+                <span lang="zh">你好。我更像一面清晰的镜子，而不是一个加油的人。告诉我你最近的内在世界有什么在动 —— 或者挑一个左侧的问题。</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-input">
+          <input id="coach-input" type="text"
+            data-en-placeholder="Describe what's been on your mind…"
+            data-zh-placeholder="说说你最近在想什么……"
+            placeholder="Describe what's been on your mind…">
+          <button class="btn btn-primary" id="coach-send">
+            <span lang="en">Reflect →</span>
+            <span lang="zh">反思 →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 09 Timeline ===== -->
+<section class="section alt" id="timeline">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-num">09 / GROWTH</div>
+      <div>
+        <h2 class="section-title">
+          <span lang="en">A timeline of <em>becoming</em></span>
+          <span lang="zh"><em>成为</em>的时间线</span>
+        </h2>
+        <p class="section-lede">
+          <span lang="en">Cognition, emotion, habits, and relationships move on different clocks. Looking at them together — over years, not days — is what shows you whether you're growing.</span>
+          <span lang="zh">认知、情绪、习惯与关系按不同的时钟运行。把它们叠在一起，以年为单位看 —— 才能知道你是不是在生长。</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-card">
+      <div class="timeline-head">
+        <h3><span lang="en">User · 6-year arc</span><span lang="zh">用户 · 六年弧线</span></h3>
+        <div class="meta"><span lang="en">demo profile · sample data</span><span lang="zh">演示档案 · 示例数据</span></div>
+      </div>
+
+      <svg class="timeline-svg" viewBox="0 0 920 320" aria-hidden="true">
+        <defs>
+          <linearGradient id="tl-cog" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7d9bff"/><stop offset="100%" stop-color="#7d9bff"/></linearGradient>
+        </defs>
+        <!-- grid -->
+        <g stroke="var(--hairline)" stroke-width="1">
+          <line x1="60" y1="40"  x2="900" y2="40"/>
+          <line x1="60" y1="120" x2="900" y2="120"/>
+          <line x1="60" y1="200" x2="900" y2="200"/>
+          <line x1="60" y1="280" x2="900" y2="280"/>
+        </g>
+        <!-- year ticks -->
+        <g font-family="Geist Mono" font-size="10" fill="var(--ink-mute)">
+          <text x="60"  y="305">2020</text>
+          <text x="200" y="305">2021</text>
+          <text x="340" y="305">2022</text>
+          <text x="480" y="305">2023</text>
+          <text x="620" y="305">2024</text>
+          <text x="760" y="305">2025</text>
+          <text x="890" y="305" text-anchor="end">2026</text>
+        </g>
+        <!-- cognition -->
+        <path d="M60,250 C160,230 240,180 360,160 S560,120 700,90 850,60 900,55"
+          fill="none" stroke="#7d9bff" stroke-width="2.4"/>
+        <!-- emotion regulation -->
+        <path d="M60,260 C160,255 240,240 360,210 S560,170 700,150 850,135 900,120"
+          fill="none" stroke="#4ed8b8" stroke-width="2"/>
+        <!-- habit quality -->
+        <path d="M60,270 C160,275 260,265 360,240 S560,200 700,175 850,160 900,150"
+          fill="none" stroke="#f0a868" stroke-width="2"/>
+        <!-- relationship depth -->
+        <path d="M60,265 C160,250 260,245 360,235 S560,205 700,185 850,170 900,165"
+          fill="none" stroke="#b88ad9" stroke-width="2"/>
+
+        <!-- pin events -->
+        <g font-family="Geist Mono" font-size="10" fill="var(--ink-soft)">
+          <circle cx="200" cy="225" r="3" fill="#7d9bff"/>
+          <text x="208" y="220"><tspan lang="en">started journaling</tspan><tspan lang="zh">开始写日记</tspan></text>
+
+          <circle cx="360" cy="160" r="3" fill="#7d9bff"/>
+          <text x="368" y="155"><tspan lang="en">therapy began</tspan><tspan lang="zh">开始咨询</tspan></text>
+
+          <circle cx="560" cy="170" r="3" fill="#4ed8b8"/>
+          <text x="568" y="165"><tspan lang="en">first hard repair</tspan><tspan lang="zh">第一次真正修复</tspan></text>
+
+          <circle cx="760" cy="135" r="3" fill="#f0a868"/>
+          <text x="768" y="130"><tspan lang="en">spike compression</tspan><tspan lang="zh">峰值压低</tspan></text>
+        </g>
+      </svg>
+
+      <div class="timeline-legend">
+        <span class="legend-dot"><span lang="en">Cognition</span><span lang="zh">认知</span></span>
+        <span class="legend-dot b"><span lang="en">Emotion regulation</span><span lang="zh">情绪调节</span></span>
+        <span class="legend-dot c"><span lang="en">Habit quality</span><span lang="zh">习惯质量</span></span>
+        <span class="legend-dot d"><span lang="en">Relationship depth</span><span lang="zh">关系深度</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">MindForge</div>
+        <p class="footer-tag">
+          <span lang="en">A system for cognitive growth, personality development, and lifelong self-transformation.</span>
+          <span lang="zh">一个面向认知发展、人格生成与终身自我转化的系统。</span>
+        </p>
+      </div>
+      <div>
+        <h5><span lang="en">System</span><span lang="zh">系统</span></h5>
+        <ul>
+          <li><a href="#atlas"><span lang="en">Cognitive Atlas</span><span lang="zh">认知图谱</span></a></li>
+          <li><a href="#personality"><span lang="en">Personality</span><span lang="zh">人格</span></a></li>
+          <li><a href="#emotion"><span lang="en">Emotion</span><span lang="zh">情绪</span></a></li>
+          <li><a href="#thinking"><span lang="en">Decision Lab</span><span lang="zh">决策实验室</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h5><span lang="en">Tools</span><span lang="zh">工具</span></h5>
+        <ul>
+          <li><a href="#habit"><span lang="en">Habit Loop</span><span lang="zh">习惯回路</span></a></li>
+          <li><a href="#learning"><span lang="en">Learning</span><span lang="zh">学习</span></a></li>
+          <li><a href="#social"><span lang="en">Attachment</span><span lang="zh">依恋</span></a></li>
+          <li><a href="#coach"><span lang="en">AI Coach</span><span lang="zh">AI 教练</span></a></li>
+          <li><a href="#timeline"><span lang="en">Growth Timeline</span><span lang="zh">成长时间线</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h5><span lang="en">Portfolio</span><span lang="zh">作品集</span></h5>
+        <ul>
+          <li><a href="https://psyverse.fun" target="_blank" rel="noopener">psyverse.fun</a></li>
+          <li><a href="https://parenting-os.psyverse.fun" target="_blank" rel="noopener"><span lang="en">Parenting OS</span><span lang="zh">育儿 OS</span></a></li>
+          <li><a href="https://attention-os.psyverse.fun" target="_blank" rel="noopener"><span lang="en">Attention OS</span><span lang="zh">注意力 OS</span></a></li>
+          <li><a href="https://atlas-of-mind.psyverse.fun" target="_blank" rel="noopener"><span lang="en">Atlas of Mind</span><span lang="zh">心智地图</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Psyverse · Gewenbo</div>
+      <div><a href="https://psyverse.fun" target="_blank" rel="noopener">psyverse.fun</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
