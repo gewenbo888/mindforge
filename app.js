@@ -48,7 +48,7 @@ const ATLAS = {
     sub: { en: "the spotlight that selects experience", zh: "选择经验的聚光灯" },
     desc: {
       en: "Attention is the gate. Whatever passes the gate gets to be processed by everything else — memory, emotion, reasoning. The mind you actually have is downstream of where attention has been pointed.",
-      zh: "注意是闸门。穿过闸门的内容才会被记忆、情绪、推理处理。你"实际拥有"的心智，是注意被指向之处的下游产物。"
+      zh: "注意是闸门。穿过闸门的内容才会被记忆、情绪、推理处理。你“实际拥有”的心智，是注意被指向之处的下游产物。"
     },
     cells: [
       { k: { en: "Bottleneck", zh: "瓶颈" }, v: { en: "1 conscious task at a time", zh: "一次只能处理一个有意识任务" } },
@@ -62,7 +62,7 @@ const ATLAS = {
     sub: { en: "what survives the night", zh: "能在夜里活下来的部分" },
     desc: {
       en: "Memory is reconstructive, not a recording. It's edited every time it's retrieved. What you remember about your past partly tells you what you currently believe about yourself.",
-      zh: "记忆是重建的，不是录像。每次被取回都会被编辑一次。你关于过去的记忆，部分地告诉你"你现在如何看待自己"。"
+      zh: "记忆是重建的，不是录像。每次被取回都会被编辑一次。你关于过去的记忆，部分地告诉你“你现在如何看待自己”。"
     },
     cells: [
       { k: { en: "Forms", zh: "形式" }, v: { en: "Working · Episodic · Semantic · Procedural", zh: "工作 · 情景 · 语义 · 程序" } },
@@ -76,7 +76,7 @@ const ATLAS = {
     sub: { en: "the slow circuit", zh: "慢速回路" },
     desc: {
       en: "Reasoning is expensive. The brain runs intuition first and rationalizes second. Trained reasoning means catching that handoff in motion — and asking, 'is this conclusion mine, or is it just the cheapest one?'",
-      zh: "推理很昂贵。大脑先用直觉，再用理性来合理化。受过训练的推理，是在切换发生的当下抓住它，并问："这个结论是我得出的，还是只是最便宜的那个？""
+      zh: "推理很昂贵。大脑先用直觉，再用理性来合理化。受过训练的推理，是在切换发生的当下抓住它，并问：“这个结论是我得出的，还是只是最便宜的那个？”"
     },
     cells: [
       { k: { en: "Two systems", zh: "两个系统" }, v: { en: "Fast (intuitive) · Slow (deliberative)", zh: "快（直觉） · 慢（深思）" } },
@@ -87,10 +87,10 @@ const ATLAS = {
   },
   emotion: {
     title: { en: "Emotion", zh: "情绪" },
-    sub: { en: "fast inference about what matters", zh: "对"什么重要"的快速推断" },
+    sub: { en: "fast inference about what matters", zh: "对“什么重要”的快速推断" },
     desc: {
       en: "Emotion is the body's prediction about whether something is good or bad for you. It's not the enemy of reason — it's the prior that reason updates. Suppressed emotion is information that doesn't disappear.",
-      zh: "情绪是身体对"这件事对我是好是坏"的预测。它不是理性的敌人 —— 它是理性需要更新的先验。被压抑的情绪不会消失，它只是变成了不能阅读的信息。"
+      zh: "情绪是身体对“这件事对我是好是坏”的预测。它不是理性的敌人 —— 它是理性需要更新的先验。被压抑的情绪不会消失，它只是变成了不能阅读的信息。"
     },
     cells: [
       { k: { en: "Two roles", zh: "两个角色" }, v: { en: "Signal (information) · Driver (action)", zh: "信号（信息） · 驱动（行动）" } },
@@ -101,24 +101,24 @@ const ATLAS = {
   },
   motivation: {
     title: { en: "Motivation", zh: "动机" },
-    sub: { en: "the question 'why bother?'", zh: ""为什么要费这个力？"" },
+    sub: { en: "the question 'why bother?'", zh: "“为什么要费这个力？”" },
     desc: {
       en: "Motivation isn't the cause of action — it's the byproduct of values, identity, and momentum. Asking 'how do I feel motivated?' usually keeps you stuck. The better question: 'what would I do if I were already the kind of person I'm trying to become?'",
-      zh: "动机不是行动的原因 —— 它是价值、身份与势能的副产物。"我怎样才有动力？"通常让人原地打转。更好的问题是："如果我已经是我想成为的那种人，我现在会做什么？""
+      zh: "动机不是行动的原因 —— 它是价值、身份与势能的副产物。“我怎样才有动力？”通常让人原地打转。更好的问题是：“如果我已经是我想成为的那种人，我现在会做什么？”"
     },
     cells: [
       { k: { en: "Two engines", zh: "两个发动机" }, v: { en: "Wanting (drive) · Liking (savoring)", zh: "想要（驱动） · 喜欢（品味）" } },
       { k: { en: "Damages", zh: "伤害" }, v: { en: "Dopamine flooding, value confusion", zh: "多巴胺过度刺激、价值混乱" } },
       { k: { en: "Strengthens", zh: "强化" }, v: { en: "Identity-based goals, autonomy, mastery, purpose", zh: "基于身份的目标、自主、精通、意义" } },
-      { k: { en: "Failure mode", zh: "失败模式" }, v: { en: "Waiting to feel motivated before doing the thing", zh: "等"有动力"再做" } }
+      { k: { en: "Failure mode", zh: "失败模式" }, v: { en: "Waiting to feel motivated before doing the thing", zh: "等“有动力”再做" } }
     ]
   },
   habit: {
     title: { en: "Habit", zh: "习惯" },
-    sub: { en: "what you become by default", zh: "你"默认"成为的样子" },
+    sub: { en: "what you become by default", zh: "你“默认”成为的样子" },
     desc: {
       en: "Habit is the brain compressing a frequently-run sequence into a single chunk so it can save energy for novelty. You don't rise to your goals; you fall to the level of your defaults.",
-      zh: "习惯是大脑把高频运行的序列压缩成一个块，以便把能量留给新奇。你不会"升到"你的目标；你会"落到"你默认行为的水平。"
+      zh: "习惯是大脑把高频运行的序列压缩成一个块，以便把能量留给新奇。你不会“升到”你的目标；你会“落到”你默认行为的水平。"
     },
     cells: [
       { k: { en: "Loop", zh: "回路" }, v: { en: "Cue → craving → response → reward", zh: "线索 → 渴望 → 行为 → 奖励" } },
@@ -132,13 +132,13 @@ const ATLAS = {
     sub: { en: "modeling other minds", zh: "建模他人之心" },
     desc: {
       en: "We don't see other people directly — we see our model of them. Mostly the model is wrong. Asking 'what is the most generous interpretation that fits the evidence?' costs nothing and changes which relationships survive.",
-      zh: "我们其实看不到"他人"——我们看到的是自己关于他人的模型。模型多半是错的。问一句"在所有解释中，最善意但仍能解释证据的版本是什么？"几乎不费力，却决定了哪些关系能活下来。"
+      zh: "我们其实看不到“他人”——我们看到的是自己关于他人的模型。模型多半是错的。问一句“在所有解释中，最善意但仍能解释证据的版本是什么？”几乎不费力，却决定了哪些关系能活下来。"
     },
     cells: [
       { k: { en: "Modules", zh: "模块" }, v: { en: "Theory of mind · Mirror system · Trust calibration", zh: "心智理论 · 镜像系统 · 信任校准" } },
-      { k: { en: "Damages", zh: "伤害" }, v: { en: "Online communication, parasocial inputs, isolation", zh: "纯线上沟通、单向"亚社交"输入、孤立" } },
+      { k: { en: "Damages", zh: "伤害" }, v: { en: "Online communication, parasocial inputs, isolation", zh: "纯线上沟通、单向“亚社交”输入、孤立" } },
       { k: { en: "Strengthens", zh: "强化" }, v: { en: "Slow conversation, conflict-then-repair, weak ties", zh: "慢速对话、冲突-修复循环、弱关系" } },
-      { k: { en: "Failure mode", zh: "失败模式" }, v: { en: "Mistaking your model of someone for the person", zh: "把"对某人的模型"误认成那个人" } }
+      { k: { en: "Failure mode", zh: "失败模式" }, v: { en: "Mistaking your model of someone for the person", zh: "把“对某人的模型”误认成那个人" } }
     ]
   }
 };
@@ -263,14 +263,14 @@ function selectEmotion(key) {
 }
 
 const REG_ZH = {
-  savor: [["看见身体里的喜悦","感觉喜悦在身体里的位置 —— 胸口、面部、喉咙。比舒适时多停留 20 秒。"],["留下一个未来的钩子","标记这一刻，让记忆未来有可以勾住的地方。"],["分享，不要"截屏"","简单地告诉一个人。先别去拿手机。"],["不要紧握","紧握会让喜悦减少。它的容器天生脆弱。"]],
+  savor: [["看见身体里的喜悦","感觉喜悦在身体里的位置 —— 胸口、面部、喉咙。比舒适时多停留 20 秒。"],["留下一个未来的钩子","标记这一刻，让记忆未来有可以勾住的地方。"],["分享，不要“截屏”","简单地告诉一个人。先别去拿手机。"],["不要紧握","紧握会让喜悦减少。它的容器天生脆弱。"]],
   express:  [["把它说出来","没说出口的爱会衰减成未被满足的需要。用一句不要求回应的话。"],["用身体表达","触摸、在场、慢慢的注意。身体相信它做的，而不是它听到的。"],["快速修复","如果有未关闭的小回路，今天就关上。"],["也练习接收","让它落在你身上是给予的一部分。许多人只练了一头。"]],
-  feel:     [["不要"管理"它","悲伤是某事曾经重要的标记。试图修复它，常常是在否认它。"],["放慢动作","散步、喝水、喝茶。慢的输入和内在节奏匹配。"],["告诉一个人","不是为了感觉更好，而是为了感觉不那么孤单。"],["等","悲伤有半衰期，你不需要为它做什么，它自己会动。"]],
-  ground:   [["先身体，再故事","五次长长的呼气，脚踏地，冷水洗手。"],["问：真实还是想象？","这份恐惧是关于"正在发生的"，还是"可能发生的"？"],["把威胁尺寸放对","说出最坏但合理（不是灾难化）的版本，并为它做准备。"],["走向，而不是远离","回避会喂养恐惧；朝它走一小步会缩小它。"]],
+  feel:     [["不要“管理”它","悲伤是某事曾经重要的标记。试图修复它，常常是在否认它。"],["放慢动作","散步、喝水、喝茶。慢的输入和内在节奏匹配。"],["告诉一个人","不是为了感觉更好，而是为了感觉不那么孤单。"],["等","悲伤有半衰期，你不需要为它做什么，它自己会动。"]],
+  ground:   [["先身体，再故事","五次长长的呼气，脚踏地，冷水洗手。"],["问：真实还是想象？","这份恐惧是关于“正在发生的”，还是“可能发生的”？"],["把威胁尺寸放对","说出最坏但合理（不是灾难化）的版本，并为它做准备。"],["走向，而不是远离","回避会喂养恐惧；朝它走一小步会缩小它。"]],
   channel:  [["不压抑，也不表演","愤怒是数据。把它演出来或压下去都会丢失数据。"],["定位那条线","哪条边界被越过了？是谁的？还在那里吗？"],["用它一次","写一句平静、明确说出边界的话。讲出去或发出去。"],["让残余流走","散步、举重、跑步。不动身体的愤怒会变成怨。"]],
-  name:     [["把它和"内疚"分开","内疚 = 我做了一件坏事；羞愧 = 我是坏的。修复多半是把羞愧转成内疚。"],["告诉一个安全的人","羞愧在沉默中存活，在被见证而不被拒绝时枯萎。"],["看见那个评判者","到底是谁的目光？常常是一个父母、一个老师、一个童年群体的更小版本。"],["真就修复，假就归还","如果你确实造成了伤害，去修复；如果不是，这羞愧是借来的，归还它。"]],
+  name:     [["把它和“内疚”分开","内疚 = 我做了一件坏事；羞愧 = 我是坏的。修复多半是把羞愧转成内疚。"],["告诉一个安全的人","羞愧在沉默中存活，在被见证而不被拒绝时枯萎。"],["看见那个评判者","到底是谁的目光？常常是一个父母、一个老师、一个童年群体的更小版本。"],["真就修复，假就归还","如果你确实造成了伤害，去修复；如果不是，这羞愧是借来的，归还它。"]],
   clarify:  [["寻找那个价值","厌恶标记着接触到了违背价值的东西。是哪个价值？"],["把人和行为分开","你厌恶的是某个行为，还是一个人？这是两个不同的问题。"],["不要泛化","厌恶扩散得很快，要让它保持精确大小。"],["选择距离，不一定要破坏","为了保护你重视的东西，你不必去修复或惩罚。"]],
-  update:   [["多保持一拍开放","惊讶是大脑在说："我的模型错了。"不要太快关上它。"],["问：我漏掉了什么？","其实早就有的信息里，是什么没被你足够重视？"],["温柔地更新","一个数据点不该推翻一个信念，但它应该让信念移动。"],["对自己讲新故事","如果新证据是真的，什么样的现实版本能容纳它？"]]
+  update:   [["多保持一拍开放","惊讶是大脑在说：“我的模型错了。”不要太快关上它。"],["问：我漏掉了什么？","其实早就有的信息里，是什么没被你足够重视？"],["温柔地更新","一个数据点不该推翻一个信念，但它应该让信念移动。"],["对自己讲新故事","如果新证据是真的，什么样的现实版本能容纳它？"]]
 };
 
 selectEmotion("joy");
@@ -299,10 +299,10 @@ const DECISIONS = {
       ["Year 10",  "You are unusually clear about who you are. Worth: very high. Optionality: medium. Risk: did you confuse identity with stuckness?"]
     ],
     zh: [
-      ["第 1 个月",  "对"没走的那条路"会有一点哀悼。身份仍然连贯。"],
+      ["第 1 个月",  "对“没走的那条路”会有一点哀悼。身份仍然连贯。"],
       ["第 1 年",    "钱比另一条路更紧。给你意义的工作在技能与名声上开始复利。"],
       ["第 3 年",    "更好的机会主动找上来，因为你留在了真正热爱的工作里、被看见。"],
-      ["第 10 年",   "你对自己是谁异常清楚。价值：非常高。可选性：中等。风险：是否把"坚守身份"和"卡住"搞混了？"]
+      ["第 10 年",   "你对自己是谁异常清楚。价值：非常高。可选性：中等。风险：是否把“坚守身份”和“卡住”搞混了？"]
     ]
   },
   negotiate: {
@@ -315,8 +315,8 @@ const DECISIONS = {
     zh: [
       ["第 1 个月",  "一次困难的对话：你提议重新塑造岗位。有一些摩擦，也有一些尊重。"],
       ["第 1 年",    "如果他们答应了，你拿到了罕见的杠杆；如果他们拒绝了，你弄清了他们其实想要什么样的人。"],
-      ["第 3 年",    "你内化了"重新设计岗位"而不是"被动接受"的习惯。这种能力会在未来每一次谈判中复利。"],
-      ["第 10 年",   "三条路里平均最强 —— 但前提是你能真的走开。没有这一条，它会塌陷成"接受"。"]
+      ["第 3 年",    "你内化了“重新设计岗位”而不是“被动接受”的习惯。这种能力会在未来每一次谈判中复利。"],
+      ["第 10 年",   "三条路里平均最强 —— 但前提是你能真的走开。没有这一条，它会塌陷成“接受”。"]
     ]
   }
 };
@@ -353,8 +353,8 @@ const COACH = {
         "<strong>What to try this week:</strong> when you notice a loop, name the body sensation underneath (tight chest, hollow stomach, jaw). Stay with that for 90 seconds before going back to the thought. Most loops shrink when the underlying signal is heard."
       ],
       zh: [
-        "<strong>它通常是什么：</strong>过度思考很少是"思考的问题"，多半是"未被感受的情绪"，因为身体更难进入，所以转用认知去处理。心智在替身体做情绪的活儿 —— 而且做得不好。",
-        "<strong>诊断性提问：</strong>"如果我现在就知道答案，我会不得不感受到什么？"——那个答案，才是这场思考真正关于的东西。",
+        "<strong>它通常是什么：</strong>过度思考很少是“思考的问题”，多半是“未被感受的情绪”，因为身体更难进入，所以转用认知去处理。心智在替身体做情绪的活儿 —— 而且做得不好。",
+        "<strong>诊断性提问：</strong>“如果我现在就知道答案，我会不得不感受到什么？”——那个答案，才是这场思考真正关于的东西。",
         "<strong>本周可以试试：</strong>当你发现自己陷入循环，先命名底下的身体感觉（胸口紧、胃发空、下颌紧）。在那里停留 90 秒，再回到想法上。多数循环在底下的信号被听见之后会缩小。"
       ]
     }
@@ -370,7 +370,7 @@ const COACH = {
       zh: [
         "<strong>这里其实藏着三件不同的事：</strong>倦怠（系统耗尽）、快感缺失（奖励回路被压抑，常因长期压力或哀伤）、价值漂移（你长出去了，原本给意义的东西不再适配）。",
         "<strong>如何区分：</strong>休息后能恢复 → 倦怠；连续数周对所有事都无快感 → 请寻求帮助，可能是抑郁；只有这一件事变平 → 价值漂移，损失是真的，但它在告诉你一些事。",
-        "<strong>几乎总是答案的一部分：</strong>睡眠、阳光、真实的对话、减少高峰值输入（短视频、新闻、提醒）。这些不是"励志"的内容 —— 它们是产出动力的机器的维修。"
+        "<strong>几乎总是答案的一部分：</strong>睡眠、阳光、真实的对话、减少高峰值输入（短视频、新闻、提醒）。这些不是“励志”的内容 —— 它们是产出动力的机器的维修。"
       ]
     }
   },
@@ -383,14 +383,14 @@ const COACH = {
         "<strong>Practice:</strong> when comparison fires, notice <em>which</em> dimension. Money? Looks? Status? That dimension is telling you what you currently believe is the source of being OK. Choose, with intention, whether you want to keep believing that."
       ],
       zh: [
-        "<strong>它在告诉你：</strong>比较是心智在用代理变量回答"我可以吗？"这个问题，因为直接问太危险。",
-        "<strong>换个视角：</strong>你比的并不是那个人 —— 是你在 20 秒内拼出来的"她/他的精选画面"。你在和高光集锦比输赢。",
-        "<strong>练习：</strong>当比较启动时，注意是<em>哪个维度</em>。钱？外貌？地位？那个维度告诉你：你目前以为"可以"等于什么。然后有意识地选择是否要继续这样相信。"
+        "<strong>它在告诉你：</strong>比较是心智在用代理变量回答“我可以吗？”这个问题，因为直接问太危险。",
+        "<strong>换个视角：</strong>你比的并不是那个人 —— 是你在 20 秒内拼出来的“她/他的精选画面”。你在和高光集锦比输赢。",
+        "<strong>练习：</strong>当比较启动时，注意是<em>哪个维度</em>。钱？外貌？地位？那个维度告诉你：你目前以为“可以”等于什么。然后有意识地选择是否要继续这样相信。"
       ]
     }
   },
   "people-pleasing": {
-    q: { en: "I can't say no.", zh: "我说不出"不"。" },
+    q: { en: "I can't say no.", zh: "我说不出“不”。" },
     a: {
       en: [
         "<strong>What's underneath:</strong> people-pleasing is rarely about kindness. It's usually a strategy learned early — 'I am safe when others are not upset with me.' The cost is a self that disappears in proportion to others' moods.",
@@ -398,9 +398,9 @@ const COACH = {
         "<strong>Concrete script:</strong> 'Let me think about it and get back to you.' Buy 24 hours every time. Most yeses you regret are given inside the first 30 seconds. The pause itself is most of the work."
       ],
       zh: [
-        "<strong>底下是什么：</strong>讨好很少是关于善良的，多半是一个早年学会的策略 —— "只要别人不生我的气，我就安全。"代价是：自我会随着别人的情绪而消失。",
-        "<strong>换个视角：</strong>一个你说不出"不"的"是"，不是真正的"是"。你不欠别人那种"以失去自己为代价"的"是"。",
-        "<strong>具体脚本：</strong>"让我想一下，再回复你。"每次都买 24 小时。多数你日后后悔的"是"，都是在前 30 秒内说出口的。那个暂停本身，已经做了大部分工作。"
+        "<strong>底下是什么：</strong>讨好很少是关于善良的，多半是一个早年学会的策略 —— “只要别人不生我的气，我就安全。”代价是：自我会随着别人的情绪而消失。",
+        "<strong>换个视角：</strong>一个你说不出“不”的“是”，不是真正的“是”。你不欠别人那种“以失去自己为代价”的“是”。",
+        "<strong>具体脚本：</strong>“让我想一下，再回复你。”每次都买 24 小时。多数你日后后悔的“是”，都是在前 30 秒内说出口的。那个暂停本身，已经做了大部分工作。"
       ]
     }
   },
@@ -413,9 +413,9 @@ const COACH = {
         "<strong>Smaller doors:</strong> body before story (warm shower, slow walk, weight). One sentence to one trusted person. Music you used to love before any of this. Don't try to feel — try to thaw."
       ],
       zh: [
-        "<strong>麻木很少是"没有感觉"。</strong>多半是感觉太多、太久，系统为了保护自己把音量调低了。这种麻木是聪明的。",
+        "<strong>麻木很少是“没有感觉”。</strong>多半是感觉太多、太久，系统为了保护自己把音量调低了。这种麻木是聪明的。",
         "<strong>它不需要的：</strong>被强迫。在系统还没准备好之前硬去触碰强烈情绪，反而会让麻木更深。",
-        "<strong>更小的门：</strong>先身体，再故事（热水澡、慢走、负重）。对一个信任的人说一句话。听一首"这一切之前你曾喜欢的音乐"。不要试图"感受"，试着"解冻"。"
+        "<strong>更小的门：</strong>先身体，再故事（热水澡、慢走、负重）。对一个信任的人说一句话。听一首“这一切之前你曾喜欢的音乐”。不要试图“感受”，试着“解冻”。"
       ]
     }
   }
